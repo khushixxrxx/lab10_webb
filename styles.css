@@ -1,0 +1,98 @@
+/* Inquiry Form Section */
+.inquiry {
+    background-color: #f8f9fa; /* Light grey background */
+    padding: 50px 0;
+    margin-bottom: 50px; /* Added margin-bottom for spacing */
+  }
+  
+  .form-group {
+    margin-bottom: 20px; /* Adjusted margin-bottom for form elements */
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ced4da; /* Grey border */
+    border-radius: 4px;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff; /* Focus color */
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Focus shadow */
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* Primary button color */
+    border-color: #007bff;
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9; /* Darker hover color */
+    border-color: #0062cc;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #343a40; /* Dark background */
+    color: #fff; /* White text */
+    padding: 5px 0; /* Reduced padding */
+    position: fixed; /* Fixed position at the bottom */
+    bottom: -100px; /* Hide the footer initially */
+    width: 100%;
+    text-align: center;
+    transition: bottom 0.3s ease-in-out; /* Smooth transition for showing/hiding footer */
+    z-index: 999; /* Ensure footer is on top of other content */
+  }
+  
+  .footer.show {
+    bottom: 0; /* Show the footer when the .show class is added */
+  }
+  
+  .social-icons {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 5px; /* Adjusted margin-top for spacing */
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin: 0 5px; /* Reduced margin */
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 1.2rem; /* Adjusted font size for icons */
+  }
+  
+  .footer-text {
+    font-size: 0.8rem; /* Reduced font size for copyright text */
+    margin-top: 5px; /* Reduced margin-top for tighter spacing */
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 992px) {
+    .navbar-brand img {
+      height: 30px; /* Adjusted height for smaller screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-brand img {
+      height: 25px; /* Further adjusted height for mobile screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .hero h1 {
+      font-size: 2.5rem; /* Decreased font size for smaller screens */
+    }
+    
+    .hero p {
+      font-size: 1.2rem; /* Decreased font size for smaller screens */
+    }
+  }
+  
